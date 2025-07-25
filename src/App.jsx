@@ -7,10 +7,11 @@ import Footer from './Components/Footer'
 
 function App() {
   return (
-    <div className=' bg-gray-700 h-full w-full text-white font-mont'>
+    <div className='bg-gray-700 h-full w-full text-white font-mont'>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Visualise />} />
+        <Route path='/learn' element={<Learn />} />
       </Routes>
       <Footer/>
     </div>
